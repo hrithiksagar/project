@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".productDetailActivity4">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewCNC"
+        android:textColor="#000"
+        android:gravity="center_horizontal"
+        android:textSize="25dp"
+        android:layout_marginTop="16dp"
+        android:text="CHEESE N CORN"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/piza"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/imgProduct"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewPrice"
+        android:text="349 INR"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="32dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="32dp"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonAddToCart"
+        android:text="Add to cart"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginTop="64dp"
+        android:background="#FF0000"
+        android:textColor="#fff"/>
+
+</LinearLayout>

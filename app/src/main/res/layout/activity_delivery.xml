@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Delivery">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Pizza is out for delivery !!!"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:textColor="#f000"
+        android:textStyle="bold"
+        android:layout_marginTop="32dp"/>
+
+    <ImageView
+        android:layout_width="367dp"
+        android:layout_height="353dp"
+        android:layout_gravity="center"
+        android:src="@drawable/deliv"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Continue  Eating"
+        android:textSize="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:background="#f00"
+        android:textColor="#FCFBFB"
+        android:id="@+id/btnCont"/>
+
+</LinearLayout>
